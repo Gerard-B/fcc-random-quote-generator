@@ -8,20 +8,8 @@ const QUOTEDATABASE = [
             quote: "Premature optimization is the root of all evil (or at least most of it) in programming. "
         }, 
         {
-            author: "Edsger Dijkstra, CACM, 15:10", 
-            quote: "Lisp has jokingly been called \"the most intelligent way to misuse a computer\". I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. "
-        }, 
-        {
             author: "Mark Twain", 
             quote: "Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great. "
-        }, 
-        {
-            author: "Jeff \"hemos\" Bates, Director, OSDN; Co-evolver, Slashdot", 
-            quote: "What Paul does, and does very well, is to take ideas and concepts that are beautiful in the abstract, and brings them down to a real world level. That's a rare talent to find in writing these days. "
-        }, 
-        {
-            author: "Yukihiro \"Matz\" Matsumoto, creator of Ruby", 
-            quote: "Since programmers create programs out of nothing, imagination is our only limitation. Thus, in the world of programming, the hero is the one who has great vision. Paul Graham is one of our contemporary heroes. He has the ability to embrace the vision, and to express it plainly. His works are my favorites, especially the ones describing language design. He explains secrets of programming, languages, and human nature that can only be learned from the hacker experience. This book shows you his great vision, and tells you the truth about the nature of hacking. "
         }, 
         {
             author: "Modern zen Poem", 
@@ -100,10 +88,6 @@ const QUOTEDATABASE = [
             quote: "The best way to learn to live with our limitations is to know them. "
         }, 
         {
-            author: "E. W. Dijkstra, The humble programmer", 
-            quote: "This challenge, viz. the confrontation with the programming task, is so unique that this novel experience can teach us a lot about ourselves. It should deepen our understanding of the processes of design and creation, it should give us better control over the task of organizing our thoughts. If it did not do so, to my taste we should no deserve the computer at all!  It has allready taught us a few lessons, and the one I have chosen to stress in this talk is the following. We shall do a much better programming job, provided that we approach the task with a full appreciation of its tremenduous difficulty, provided that we stick to modest and elegant programming languages, provided that we respect the intrinsec limitations of the human mind and approach the task as Very Humble Programmers. "
-        }, 
-        {
             author: "Hermann Weyl, The Mathematical Way of Thinking", 
             quote: "We now come to the decisive step of mathematical abstraction: we forget about what the symbols stand for. ...[The mathematician] need not be idle; there are many operations which he may carry out with these symbols, without ever having to look at the things they stand for. "
         }, 
@@ -122,10 +106,6 @@ const QUOTEDATABASE = [
         {
             author: "Alan J. Perlis", 
             quote: "We control complexity by building abstractions that hide details when appropriate. We control complexity by establishing conventional interfaces that enable us to construct systems by combining standard, well-understood pieces in a ``mix and match'' way. We control complexity by establishing new languages for describing a design, each of which emphasizes particular aspects of the design and deemphasizes others. "
-        }, 
-        {
-            author: "John Locke, An Essay Concerning Human Understanding (1690)", 
-            quote: "The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three: 1. Combining several simple ideas into one compound one, and thus all complex ideas are made. 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations. 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made. "
         }, 
         {
             author: "Alan J. Perlis", 
@@ -200,10 +180,6 @@ const QUOTEDATABASE = [
             quote: "If we wish to count lines of code, we should not regard them as *lines produced* but as *lines spent*. "
         }, 
         {
-            author: "Steven Den Beste", 
-            quote: "Sometimes a man with too broad a perspective reveals himself as having no real perspective at all. A man who tries too hard to see every side may be a man who is trying to avoid choosing any side. A man who tries too hard to seek a deeper truth may be trying to hide from the truth he already knows.  That is not a sign of intellectual sophistication and \"great thinking\". It is a demonstration of moral degeneracy and cowardice. "
-        }, 
-        {
             author: "William Strunk, Jr. (The Elements of Style)", 
             quote: "Omit needless words. "
         }, 
@@ -214,10 +190,6 @@ const QUOTEDATABASE = [
         {
             author: "Brave New World (paraphrased)", 
             quote: "Philosophy: the finding of bad reasons for what one believes by instinct. "
-        }, 
-        {
-            author: "C.S. Lewis", 
-            quote: "Of all tyrannies a tyranny sincerely exercised for the good of its victims may be the most oppressive. It may be better to live under robber barons than under omnipotent moral busybodies, The robber baron's cruelty may sometimes sleep, his cupidity may at some point be satiated; but those who torment us for own good will torment us without end, for they do so with the approval of their own conscience. "
         }, 
         {
             author: "Catwoman (The Batman TV Series, episode 83)", 
@@ -330,11 +302,7 @@ const QUOTEDATABASE = [
         {
             author: "[fact]", 
             quote: "A non negative binary integer value x is a power of 2 iff (x & (x-1)) is 0 using 2's complement arithmetic. "
-        }, 
-        {
-            author: "[A comment on a blog]", 
-            quote: "While I\u2019ve always appreciated beautiful code, I share Jonathan\u2019s concern about studying it too much. I think studying beauty in music and painting has led us to modern classical music and painting that the majority of us just don\u2019t get. Beauty can be seen when it emerges, but isn\u2019t something to strive for in isolation of a larger context. In the software world, the larger context would be the utility of the software to the end user. "
-        }, 
+        },  
         {
             author: "unknown", 
             quote: "Dont give users the opportunity to lock themselves. "
@@ -352,20 +320,12 @@ const QUOTEDATABASE = [
             quote: "- If you give him a penny for his thoughts, you'd get change. - Not the sharpest knife in the drawer. - A prime candidate for natural deselection. "
         }, 
         {
-            author: "Paul Graham", 
-            quote: "What I didn't understand was that the value of some new acquisition wasn't the difference between its retail price and what I paid for it. It was the value I derived from it. Stuff is an extremely illiquid asset. Unless you have some plan for selling that valuable thing you got so cheaply, what difference does it make what it's \"worth?\" The only way you're ever going to extract any value from it is to use it. And if you don't have any immediate use for it, you probably never will. "
-        }, 
-        {
             author: "unknown", 
             quote: "Only bad designers blame their failings on the users. "
         }, 
         {
             author: "unknown",
             quote: "Humans aren't rational. They rationalize. And I don't just mean \"some of them\" or \"other people\". I'm talking about everyone. We have a \"logic engine\" in our brains, but for the most part, it's not the one in the driver's seat."  
-        }, 
-        {
-            author: "The culture code.", 
-            quote: "What do Americans look for in a car? I've heard many answers when I've asked this question. The answers include excellent safety ratings, great gas mileage, handling, and cornering ability, among others. I don't believe any of these. That's because the first principle of the Culture Code is that the only effective way to understand what people truly mean is to ignore what they say. This is not to suggest that people intentionally lie or misrepresent themselves. What it means is that, when asked direct questions about their interests and preferences, people tend to give answers they believe the questioner wants to hear. Again, this is not because they intend to mislead. It is because people respond to these questions with their cortexes, the parts of their brains that control intelligence rather than emotion or instinct. They ponder a question, they process a question, and when they deliver an answer, it is the product of deliberation. They believe they are telling the truth. A lie detector would confirm this. In most cases, however, they aren't saying what they mean. "
         }, 
         {
             author: "unknown", 
@@ -380,10 +340,6 @@ const QUOTEDATABASE = [
             quote: "The lesson of the story might appear to be that self-interested and ambitious people in power are often the cause of wastefulness in developing countries. But self-interested and ambitious people are in positions of power, great and small, all over the world. In many places, they are restrained by the law, the press, and democratic opposition. Cameroon's tragedy is that there is nothing to hold self-interest in check. "
         }, 
         {
-            author: "http://secretsofstudying.com/", 
-            quote: "To solve your problems you must learn new skills, adapt new thought patterns, and become a different person than you were before that problem.  God has crafted you for success. In the middle of every adversity lie your best opportunities. Discover it, build upon it and move forward in your journey to live an extraordinary life.  You owe it to yourself to live a great life. Don\u2019t let negative thoughts pull you down. Be grateful and open to learn and grow. "
-        }, 
-        {
             author: "unknown", 
             quote: "If there is a will, there is a way. "
         }, 
@@ -392,16 +348,8 @@ const QUOTEDATABASE = [
             quote: "Having large case statements in an object-oriented language is a sure sign your design is flawed. "
         }, 
         {
-            author: "Sincerity Theory", 
-            quote: "Being a programmer is the same way. The only way to be a good programmer is to write code. When you realize you haven't been writing much code lately, and it seems like all you do is brag about code you wrote in the past, and people start looking at you funny while you're shooting your mouth off, realize it's because they know. They might not even know they know, but they know. So, yes, doing what you love brings success, and by all means, throw yourself a nice big party, buy yourself a nice car, soak up the adulation of an adoring crowd. Then shut the fuck up and get back to work. "
-        }, 
-        {
             author: "The bipolar lisp programmer", 
             quote: "Another feature about this guy is his low threshold of boredom. He'll pick up on a task and work frantically at it, accomplishing wonders in a short time and then get bored and drop it before its properly finished. He'll do nothing but strum his guitar and lie around in bed for several days after.  Thats also part of the pattern too; periods of frenetic activity followed by periods of melancholia, withdrawal and inactivity. This is a bipolar personality. "
-        }, 
-        {
-            author: "David Heinemeier Hansson (Ruby On Rails' creator)", 
-            quote: "My dream is that people adopt it on its own merits. We're not trying to bend Ruby on Rails to fit the enterprise, we're encouraging enterprises to bend to Ruby on Rails. Come if you like it, stay away if you don't. We're not going head over heels to accommodate the enterprise or to lure them away from Java. That's how you end up with Java, if you start bending to special interest groups. "
         }, 
         {
             author: "William S. Annis", 
@@ -461,10 +409,6 @@ const QUOTEDATABASE = [
         }, 
         {
             author: "Joesgoals.com", 
-            quote: "Mastering isn\u2019t a survival instinct; it\u2019s an urge to excel. Mastering is one of the experiences that delineates us from animals. It is striving to be more tomorrow than we are today; to perfectly pitch the ball over home plate; to craft the perfect sentence in an article; to open the oven and feel the warm, richly-scented cloud telling you dinner is going to be absolutely extraordinary. We humans crave perfection, to be masters of our domain, to distinguish ourselves by sheer skill and prowess. "
-        }, 
-        {
-            author: "Joesgoals.com", 
             quote: "It(mastering)\u2019s knowing what you are doing. "
         }, 
         {
@@ -478,11 +422,7 @@ const QUOTEDATABASE = [
         {
             author: "Bruce Lee", 
             quote: "If I tell you I'm good, you would probably think I'm boasting. If I tell you I'm no good, you know I'm lying. "
-        }, 
-        {
-            author: "VladimirSlepnev", 
-            quote: "Let me try to get this straight: Lisp is a language for describing algorithms. This was JohnMcCarthy's original purpose, anyway: to build something more convenient than a Turing machine. Lisp is not about file, socket or GUI programming - Lisp is about expressive power. (For example, you can design multiple object systems for Lisp, in Lisp. Or implement the now-fashionable AOP. Or do arbitrary transformations on parsed source code.) If you don't value expressive power, Lisp ain't for you. I, personally, would prefer Lisp to not become mainstream: this would necessarily involve a dumbing down. "
-        }, 
+        },
         {
             author: "David Gorman (ImThere.com)", 
             quote: "If something isn\u2019t working, you need to look back and figure out what got you excited in the first place. "
@@ -534,10 +474,6 @@ const QUOTEDATABASE = [
         {
             author: "Rear Admiral Grace Hopper", 
             quote: "The most damaging phrase in the language is, It's always been done that way. "
-        }, 
-        {
-            author: "Reginald Braithwaite", 
-            quote: "Getting back to failing early, I've learned it's important to completely fail. Get fired. Shoot the project, then burn its corpse. Melt the CVS repository and microwave the backup CDs. When things go wrong, I've often tried to play the hero from start to finish. Guess what? Some projects are doomed no matter what. Some need skills I don't possess. And some need a fresh face. "
         }, 
         {
             author: "DJ MacLean", 
@@ -672,20 +608,12 @@ const QUOTEDATABASE = [
             quote: "I'm always happy to trade performance for readability as long as the former isn't already scarce. "
         }, 
         {
-            author: "Reginald Braithwait", 
-            quote: "You have to write for your audience. I would never write (1..5).map &'*2' in Java when I could write ListFactoryFactory.getListFactoryFromResource( new ResourceName('com.javax.magnitudes.integers'). setLowerBound(1).setUpperBound(5).setStep(1).applyFunctor( new Functor () { public void eval (x) { return x * 2; } })) I'm simplifying, of course, I've left out the security and logging wrappers. "
-        }, 
-        {
             author: "Benjamin Franklin", 
             quote: "The definition of insanity is doing the same thing over and over again and expecting different results. "
         }, 
         {
             author: "Mahatma\u00a0Gandhi", 
             quote: "A\u00a0no\u00a0uttered\u00a0from\u00a0the\u00a0deepest\u00a0conviction\u00a0is better than a yes merely uttered to please or what is worse, to avoid trouble. "
-        }, 
-        {
-            author: "E. W. Dijkstra", 
-            quote: "I think it is wise, and only honest, to warn you that my goal is immodest. It is not my purpose to \"transfer knowledge\" to you that, subsequently, you can forget again. My purpose is no less than to effectuate in each of you a noticeable, irreversable change. I want you to gain, for the rest of your lives, the insight that beautiful proofs are not \"found\" by trial anf error but are the result of a consciously applied design discipline. I want you to raise your quality standards. I mean, if 10 years from now, when you are doing something quick and dirty, you suddenly visualize that I am looking over your shoulders and say to yourself \"Dijkstra would not have liked this\", well, that would be enough immortality for me. "
         }, 
         {
             author: "Richard P. Gabriel & Ron Goldman, Mob Software: The Erotic Life of Code", 
@@ -1130,10 +1058,6 @@ const QUOTEDATABASE = [
         {
             author: "Tim Gallwey, The inner game of work", 
             quote: "I had to learn how to teach less, so that more could be learned. "
-        }, 
-        {
-            author: "Tim Gallwey, The inner game of work", 
-            quote: "Workers of the world, the chains that bind you are not held in place by a ruling class, a \"superior\" race, by society, the state, or a leader. They are held in place by none other than yourself. Those who seek to exploit are not themselves free, for they place no value in freedom. Who is it that really employs you and commands you to pick up your daily load? And who is it that you allow to pass judgment on the adequacy of your toil? Who have you empowered to dangle the carrot before you and threaten with disapproval? Who, when you wake each morning, sends you off to what you call your work? Is there an \"I want to\" behind all your \"I have to,\" or have you been so long forgotten to yourself that \"I want\" exists only as an idea in your head? If you have disconnected from your soul's desire and are drowning in an ocean of \"have to,\" then rise up and overthrow your master. Begin the journey toward emancipation.  Work only in such a way that you are truly self-employed. "
         }, 
         {
             author: "Ted Kennedy", 
