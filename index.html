@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <title>Random Quote Generator (FCC Project)</title>
+  <!--   <script>
+    src="https://raw.githubusercontent.com/Gerard-B/Github-tutorial-2/master/quotes.js"
+  </script> -->
+      <script src="quotes.js"></script>
+
+  <style>
+body, html {
+  height: 100%;
+  background: url(tree-water.jpg);
+  background-size: cover;
+  background-color: #8370b5;
+}
+
+.blockquote {
+  min-height: 20vh;
+}
+  </style>
+</head>
+
+<body font-family="roboto">
+  <!-- other options: "Helvetica Neue", Arial, sans-serif -->
+
+  <wrapper id="quote-box" class="container text-center">
+    <div class="h5 text-light"> This website is a project for <a class="badge badge-secondary" target="_blank" href="https://www.freecodecamp.com" id="link-fcc" alt="Check out FreeCodeCamp"> FreeCodeCamp </a> </div>
+    <br>
+
+    <div class="card" style="background-color: 	rgb(255,255,255,0.4)">
+      <div class="card-body">
+        <blockquote class="blockquote text-right h1">
+          <p id="text" class="m-1 p-3"></p>
+          <footer class="blockquote-footer">quote by <cite id="author"></cite></footer>
+        </blockquote>
+        <div class="row">
+          <div class="col-sm">
+            <a class="btn btn-outline-primary btn-large btn-block m-1 p-3" target="_blank" href="https://twitter.com/intent/tweet" id="tweet-quote" alt="Tweet this quote" data-toggle="tooltip" data-placement="top" title="Tweet this quote to your friends and family"><i class="fa fa-twitter"></i>Tweet this quote</></a>
+          </div>
+          <br>
+          <div class="col-sm">
+            <button id="new-quote" class="btn btn-success btn-large btn-block m-1 p-3" onClick="generateQuote()" data-toggle="tooltip" data-placement="bottom" title="Curious for the next quote? Click here!"><i class="fa fa-quote-left"></i>Generate a new Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-light">
+      <div class="footer"> by <a class="text-light" target="_blank" href="https://github.com/Gerard-B/">Gerard</a></div>
+    </div>
+
+  </wrapper>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script>
+    src = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  </script>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<script>
+
+window.onload = init;
+function init() {
+  generateQuote();
+}
+
+function generateQuote() {
+  console.log("Function is executing");
+  let quoteSize = QUOTEDATABASE.length;
+  var randomIndex = Math.floor(Math.random() * quoteSize);
+  var selectedQuote = (document.getElementById("text").innerText =
+    QUOTEDATABASE[randomIndex].quote);
+  var selectedAuthor = (document.getElementById("author").innerText =
+    QUOTEDATABASE[randomIndex].author);
+
+  //element to have the correct tweet-link
+  var basicURL = "https://twitter.com/intent/tweet?text=";
+  var quotedBy = " quote by ";
+  var hashtags = "&hashtags=quotes%2Ccoding";
+
+  var basicURLplusQuoteplusAuthor = (basicURL += selectedQuote += quotedBy += selectedAuthor += hashtags);
+
+  document.getElementById(
+    "tweet-quote"
+  ).href = basicURLplusQuoteplusAuthor.replace(/ /g, "%20");
+}
+
+  </script>
+</body>
+
+</html>
